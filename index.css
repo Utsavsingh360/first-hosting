@@ -1,0 +1,42 @@
+.back-btn-child {
+    border: 0;
+    background-color: #d9d9d9;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+  }
+  .back,
+  .back-btn,
+  .back-btn-child {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+  }
+  .back {
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .back-btn {
+    top: 30px;
+    left: 59px;
+    cursor: pointer;
+  }
+  .back-btn-parent {
+    position: relative;
+    background: linear-gradient(
+      139.69deg,
+      #7af5f5 28.93%,
+      rgba(203, 58, 76, 0.05) 95.56%
+    );
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 21px;
+    color: #000;
+    font-family: var(--font-inter);
+  }
+  
